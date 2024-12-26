@@ -9,7 +9,7 @@ This repository contains a collection of pattern-based programs written in Dart.
      ***
      **
      *
-     ```
+     
 
 2. **Ascending Numerical Pyramid**
    - Outputs numbers in an ascending format. Example:
@@ -17,7 +17,7 @@ This repository contains a collection of pattern-based programs written in Dart.
      1
      1 2
      1 2 3
-     ```
+     
 
 3. **Row-Wise Repeating Numbers**
    - Outputs rows where each number is repeated. Example:
