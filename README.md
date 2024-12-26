@@ -5,7 +5,7 @@ This repository contains a collection of pattern-based programs written in Dart.
 ## **Features**
 1. **Descending Star Pattern**
    - Outputs stars (`*`) in a descending order. Example:
-     ```
+     
      ***
      **
      *
@@ -13,7 +13,7 @@ This repository contains a collection of pattern-based programs written in Dart.
 
 2. **Ascending Numerical Pyramid**
    - Outputs numbers in an ascending format. Example:
-     ```
+     
      1
      1 2
      1 2 3
@@ -21,7 +21,7 @@ This repository contains a collection of pattern-based programs written in Dart.
 
 3. **Row-Wise Repeating Numbers**
    - Outputs rows where each number is repeated. Example:
-     ```
+     
      1 1 1
      2 2 2
      3 3 3
@@ -29,7 +29,7 @@ This repository contains a collection of pattern-based programs written in Dart.
 
 4. **Mixed Star and Dollar Pattern**
    - Combines stars (`*`) and dollar signs (`$`). Example:
-     ```
+     
      $
      * $
      * * $
@@ -38,7 +38,7 @@ This repository contains a collection of pattern-based programs written in Dart.
 
 5. **Diamond Star Pattern**
    - Generates a diamond-like pattern with stars (`*`). Example:
-     ```
+     
      *
      * *
      * * *
@@ -50,7 +50,7 @@ This repository contains a collection of pattern-based programs written in Dart.
 
 6. **Symmetrical Number Pyramid**
    - Outputs a pyramid with numbers that ascends and descends symmetrically. Example:
-     ```
+     
      1
      1 2
      1 2 3
