@@ -69,8 +69,6 @@ This repository contains a collection of pattern-based programs written in Dart.
 - Demonstrates **conditional checks** for custom symbols.
 - Uses **string multiplication** for repetitive patterns.
 
----
-
 ## **How to Run**
 1. Install Dart on your system if not already installed.
 2. Clone this repository:
