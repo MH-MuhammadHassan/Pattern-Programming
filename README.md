@@ -2,8 +2,6 @@
 
 This repository contains a collection of pattern-based programs written in Dart. These programs use nested loops to generate a variety of patterns, making them an excellent resource for understanding and practicing loops and conditional logic in Dart.
 
----
-
 ## **Features**
 1. **Descending Star Pattern**
    - Outputs stars (`*`) in a descending order. Example:
