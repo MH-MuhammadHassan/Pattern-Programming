@@ -75,4 +75,4 @@ This repository contains a collection of pattern-based programs written in Dart.
 1. Install Dart on your system if not already installed.
 2. Clone this repository:
    ```bash
-   git clone https://github.com/MH-MuhammadHassan/Dart-Patterns.git
+   git clone https://github.com/MH-MuhammadHassan/Pattern-Programming.git
