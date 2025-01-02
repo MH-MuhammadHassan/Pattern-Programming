@@ -27,6 +27,7 @@ void main() {
   //   print("");
   // }
 
+// 💥
   // 1
   // 1 2
   // 1 2 3
@@ -38,6 +39,7 @@ void main() {
   //   print("");
   // }
 
+// 💥
   // 1 1 1
   // 2 2 2
   // 3 3 3
@@ -49,6 +51,7 @@ void main() {
   //   print("");
   // }
 
+  // 💥
   // *
   // * *
   // * * *
@@ -61,6 +64,7 @@ void main() {
   //   print("");
   // }
 
+// 💥
   // $
   // * $
   // * * $
@@ -77,6 +81,7 @@ void main() {
   //   print("");
   // }
 
+//  💥
   // *
   // * *
   // * * *
@@ -97,6 +102,7 @@ void main() {
   //   print('* ' * i);
   // }
 
+// 💥
   // 1
   // 1 2
   // 1 2 3
@@ -105,17 +111,138 @@ void main() {
   // 1 2
   // 1
 
-  int n = 4; // Number of rows for the top half
+  // int n = 4; // Number of rows for the top half
+  // for (int i = 1; i <= n; i++) {
+  //   for (int j = 1; j <= i; j++) {
+  //     stdout.write("$j ");
+  //   }
+  //   print("");
+  // }
+  // for (int i = 3; i >= 1; i--) {
+  //   for (int j = 1; j <= i; j++) {
+  //     stdout.write("$j ");
+  //   }
+  //   print("");
+  // }
+
+  // https://www.youtube.com/watch?v=xzstcj3Cuso
+
+// 💥 Increasing Trianlge Pattern
+// *
+// **
+// ***
+// ****
+// *****
+
+  // int n = 5;
+  // for (int i = 1; i <= n; i++) {
+  //   for (int j = 1; j <= i; j++) {
+  //     stdout.write("*");
+  //   }
+  //   print("");
+  // }
+
+// 💥 DEcreasing Trianlge Pattern
+// *****
+// ****
+// ***
+// **
+// *
+
+  // int n = 5;
+  // for (int i = 1; i <= n; i++) {
+  //   for (int j = i; j <= n; j++) {
+  //     stdout.write("*");
+  //   }
+  //   print("");
+  // }
+
+// 💥 Right Sided Triangle
+//      *
+//     **
+//    ***
+//   ****
+//  *****
+  // int n = 5;
+  // for (int i = 1; i <= n; i++) {
+  //   for (int j = i; j <= n; j++) {
+  //     stdout.write(" ");
+  //   } // for space decreasing
+  //   for (int j = 1; j <= i; j++) {
+  //     stdout.write("*");
+  //   }
+  //   print(" ");
+  // }
+
+// 💥 Left Sided Triangle
+//  *****
+//   ****
+//    ***
+//     **
+//      *
+//     int n = 5;
+//   for (int i = 1; i <= n; i++) {
+//     for (int j = 1; j <= i; j++) {
+//       stdout.write(" ");
+//     } // for space decreasing
+//     for (int j = i; j <= n; j++) {
+//       stdout.write("*");
+//     }
+//     print(" ");
+//   }
+
+// 💥 Hill Pattern
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+  // int n = 5;
+  // for (int i = 1; i <= n; i++) {
+  //   for (int j = i; j <= n; j++) {
+  //     stdout.write(" ");
+  //   } // for space decreasing
+  //   for (int j = 1; j < i; j++) {
+  //     stdout.write("*");
+  //   }
+  //   for (int j = 1; j <= i; j++) {
+  //     stdout.write("*");
+  //   }
+  //   print(" ");
+  // }
+
+  // 💥 Reverse Hill Pattern
+  // *********
+  //  *******
+  //   *****
+  //    ***
+  //     *
+  int n = 5;
   for (int i = 1; i <= n; i++) {
     for (int j = 1; j <= i; j++) {
-      stdout.write("$j ");
+      // for increasing space
+      stdout.write(" ");
     }
-    print("");
-  }
-  for (int i = 3; i >= 1; i--) {
-    for (int j = 1; j <= i; j++) {
-      stdout.write("$j ");
+    for (int j = i; j < n; j++) {
+      // for decreasing *
+      stdout.write("*");
     }
-    print("");
+    for (int j = i; j <= n; j++) {
+      // for decreasing *
+      stdout.write("*");
+    }
+    print(" ");
   }
+  // Diamond Pattern
+  //     *
+  //    ***
+  //   *****
+  //  *******
+  // *********
+  //  *******
+  //   *****
+  //    ***
+  //     *
+
+  // combine both hill pattern and reverse hill pattern
 }
