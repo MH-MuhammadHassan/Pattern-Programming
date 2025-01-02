@@ -1,78 +1,122 @@
-# Dart-Patterns
+### **Included Patterns**
 
-This repository contains a collection of pattern-based programs written in Dart. These programs use nested loops to generate a variety of patterns, making them an excellent resource for understanding and practicing loops and conditional logic in Dart.
+#### **1. Star Patterns**
+- **Decreasing Triangle (Way 1, 2, 3)**:
+  ```
+  ***
+  **
+  *
+  ```
+- **Increasing Triangle**:
+  ```
+  *
+  **
+  ***
+  ****
+  *****
+  ```
+- **Diamond Pattern**:
+  ```
+     *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
+     *
+  ```
 
----
+#### **2. Numeric Patterns**
+- **Incremental Rows**:
+  ```
+  1
+  1 2
+  1 2 3
+  ```
+- **Repeated Numbers in Columns**:
+  ```
+  1 1 1
+  2 2 2
+  3 3 3
+  ```
+- **Combined Incremental Triangle**:
+  ```
+  1
+  1 2
+  1 2 3
+  1 2 3 4
+  1 2 3
+  1 2
+  1
+  ```
 
-## **Features**
-1. **Descending Star Pattern**
-   - Outputs stars (`*`) in a descending order. Example:
-     ```
-     ***
+#### **3. Triangle Alignments**
+- **Right-Sided Triangle**:
+  ```
+      *
      **
+    ***
+   ****
+  *****
+  ```
+- **Left-Sided Triangle**:
+  ```
+  *****
+   ****
+    ***
+     **
+      *
+  ```
+
+#### **4. Hill Patterns**
+- **Hill Pattern**:
+  ```
      *
-     ```
+    ***
+   *****
+  *******
+ *********
+  ```
+- **Reverse Hill Pattern**:
+  ```
+  *********
+   *******
+    *****
+     ***
+      *
+  ```
 
-2. **Ascending Numerical Pyramid**
-   - Outputs numbers in an ascending format. Example:
-     ```
-     1
-     1 2
-     1 2 3
-     ```
-
-3. **Row-Wise Repeating Numbers**
-   - Outputs rows where each number is repeated. Example:
-     ```
-     1 1 1
-     2 2 2
-     3 3 3
-     ```
-
-4. **Mixed Star and Dollar Pattern**
-   - Combines stars (`*`) and dollar signs (`$`). Example:
-     ```
-     $
-     * $
-     * * $
-     * * * $
-     ```
-
-5. **Diamond Star Pattern**
-   - Generates a diamond-like pattern with stars (`*`). Example:
-     ```
+#### **5. Combination Patterns**
+- **Diamond Shape (Hill + Reverse Hill)**:
+  ```
      *
-     * *
-     * * *
-     * * * *
-     * * *
-     * *
+    ***
+   *****
+  *******
+ *********
+  *******
+   *****
+    ***
      *
-     ```
-
-6. **Symmetrical Number Pyramid**
-   - Outputs a pyramid with numbers that ascends and descends symmetrically. Example:
-     ```
-     1
-     1 2
-     1 2 3
-     1 2 3 4
-     1 2 3
-     1 2
-     1
-     ```
+  ```
 
 ---
 
-## **Code Highlights**
-- Uses **nested loops** for creating rows and columns.
-- Demonstrates **conditional checks** for custom symbols.
-- Uses **string multiplication** for repetitive patterns.
+### **How to Add Your Own Patterns**
+1. Use nested loops to control rows (`i`) and columns (`j`).
+2. Use `stdout.write()` for inline outputs and `print()` for new lines.
+3. Combine logic with conditional statements for dynamic outputs.
 
 ---
 
-## **How to Run**
-1. Install Dart on your system if not already installed.
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/MH-MuhammadHassan/Pattern-Programming.git
+### **Reference**
+- For additional guidance, refer to the YouTube tutorial linked in the comments: [YouTube Tutorial](https://www.youtube.com/watch?v=xzstcj3Cuso). 
+
+---
+
+### **License**
+This code is open-source and can be used for learning or sharing purposes. Attribution is appreciated but not required.
+
+Happy coding! 🚀
